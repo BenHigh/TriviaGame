@@ -63,7 +63,7 @@ function newQ(){
     endQuiz();
     return;
   }
-  qTime = 10;
+  qTime = 20;
   clearInterval(intervalId);
   count();
   intervalId = setInterval(count, 1000);
