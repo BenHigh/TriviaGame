@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	background-image: url("../img/curl.png");
+	background-repeat: repeat;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+html, body{
+	overflow: auto;
+}
+
+.container {
+	padding: 60px;
+	margin: 40px auto;
+	width: 40%;
+	background: #bbb;
+	border: 4px solid gold;
+	border-radius: 55px;
+}
+
+.jumbotron {
+	box-sizing: border-box;
+	border: 3.7px solid purple;
+	border-radius: 55px;
+	background: #aaa;
+}
+
+#timer{
+	border: 4px solid cyan;
+}
+
+.ans:hover{
+	background: #888;
+}
+
+.ans:active{
+	background: #666;
+}
+
+#a{
+	border: 4px solid green;
+}
+
+#b{
+	border: 4px solid blue;
+}
+
+#c{
+	border: 4px solid red;
+}
